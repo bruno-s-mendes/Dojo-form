@@ -23,12 +23,12 @@ class Login extends React.Component {
         <div>
           <input
             type="text"
-            value={ email }
+            placeholder={'email'}
             onChange={event => this.setState({ email: event.target.value })}
           />
           <input
             type="password"
-            value={ senha }
+            placeholder={ 'senha' }
             onChange={event => this.setState({ senha: event.target.value })}
           />
         </div>
